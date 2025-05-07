@@ -1,7 +1,8 @@
 # IDM Freezer & Activation Tool v2.0
 An enhanced open-source tool to activate, freeze trial, and manage Internet Download Manager
 
-![image](https://github.com/user-attachments/assets/f1762de2-7f15-4a75-a00a-1386c2bba01b)
+![Capture](https://github.com/user-attachments/assets/fdaf3422-b3c5-4b72-82d8-6ab18ae7abfe)
+
 
 ## What's New in Version 2.0
 - Improved Python GUI with colorful interface
@@ -62,3 +63,7 @@ When I first uploaded this script to GitHub, the main author had not yet establi
 Consequently, users had to go to the official forum to download and use the script until the GitHub repository was eventually created.
 My primary goal in setting up this repository was to simplify the process for users. Additionally, 
 I made sure to acknowledge the original creators of the script to show respect for their work.
+### 💖 Donations
+If you feel like showing your love and/or appreciation for this simple project, then how about buying me a coffee or milk? ☕🥛
+
+[<img src="https://github.com/zinzied/Website-login-checker/assets/10098794/24f9935f-3637-4607-8980-06124c2d0225">](https://www.buymeacoffee.com/Zied)

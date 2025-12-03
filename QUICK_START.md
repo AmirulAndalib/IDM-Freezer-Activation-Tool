@@ -45,18 +45,26 @@ Continue anyway? (yes/no):
 
 ---
 
-## What Changed in the Fix
+## What Changed in v3.0
 
-### Before (v3.0 initial):
-- App would immediately try to restart with admin
-- Nothing happened if user cancelled UAC
-- App would just close
+### Key Improvements:
+- **✅ Self-Contained** - No external downloads or dependencies
+- **✅ Works Offline** - Activation and freeze work locally
+- **✅ French Locale Fixed** - UTF-8 encoding support
+- **✅ Better Admin Handling** - Clear prompts and options
+- **✅ Enhanced Logging** - Track all operations
+- **✅ Settings Menu** - Customize behavior
+- **✅ Advanced Backup** - History with dates and sizes
 
-### After (v3.0 fixed):
-- App asks if you want to continue without admin
-- You can choose to try anyway
-- Better feedback about what's happening
-- Doesn't force restart unless you agree
+### Before v3.0:
+- Tried to download external scripts → Failed
+- French locale errors
+- Poor error messages
+
+### After v3.0:
+- Uses local activation code → Works perfectly
+- Full UTF-8 support
+- Clear, helpful messages
 
 ---
 

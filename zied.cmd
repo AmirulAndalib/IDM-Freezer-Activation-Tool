@@ -399,7 +399,7 @@ if %_erl%==7 goto :_check_updates
 if %_erl%==6 goto :_check_status
 if %_erl%==5 start https://github.com/zinzied/IDM-Freezer & goto MainMenu
 if %_erl%==4 start https://www.internetdownloadmanager.com/download.html & goto MainMenu
-if %_erl%==3 goto _reset
+if %_erl%==3 goto :_reset
 if %_erl%==2 (set frz=1&goto :_activate)
 if %_erl%==1 (set frz=0&goto :_activate)
 goto :MainMenu
@@ -500,9 +500,15 @@ if not defined _status (
 )
 
 echo %line%
-) else (
+
+goto done
+
+::========================================================================================================================================
+
+:_reset
+
+cls
 if not defined terminal mode 113, 35
-)
 if not defined terminal %psc% "&%_buf%" %nul%
 
 echo:
